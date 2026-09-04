@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating romantic stickers -->
+    <div class="stickers">
+        <span>💗</span>
+        <span>🌹</span>
+        <span>💋</span>
+        <span>🧸</span>
+        <span>💕</span>
+        <span>✨</span>
+        <span>❤️</span>
+    </div>
+
+    <!-- Floating hearts -->
+    <div id="hearts"></div>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION 1 -->
+    <!-- ========================= -->
+
+    <section id="question1" class="screen active">
+
+        <div class="card">
+
+            <div class="emoji">🥰</div>
+
+            <h1>How are you today?</h1>
+
+            <p class="small-text">
+                Be honest... 😏
+            </p>
+
+            <div class="buttons">
+
+                <button class="runaway1">
+                    Just going on
+                </button>
+
+                <button class="runaway1">
+                    Not good
+                </button>
+
+                <button class="main-btn" onclick="amazingClicked()">
+                    Amazing ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- REPLY 1 -->
+    <!-- ========================= -->
+
+    <section id="reply1" class="screen">
+
+        <div class="card">
+
+            <div class="big-emoji">🥰❤️</div>
+
+            <h1>
+                Yes, I know amazing cz I'm with you always. ❤️
+            </h1>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION 2 -->
+    <!-- ========================= -->
+
+    <section id="question2" class="screen">
+
+        <div class="card">
+
+            <div class="emoji">📸❤️</div>
+
+            <h1>
+                Will you remember our first meet?
+            </h1>
+
+            <!-- Your first date photo -->
+            <img
+                src="photos/first-date.jpg"
+                class="date-photo"
+                alt="Our first date"
+            >
+
+            <p class="small-text">
+                Tell me the date 👀
+            </p>
+
+            <input
+                type="text"
+                id="dateAnswer"
+                placeholder="Enter the date..."
+                autocomplete="off"
+            >
+
+            <button class="main-btn" onclick="checkDate()">
+                Submit ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- REPLY 2 -->
+    <!-- ========================= -->
+
+    <section id="reply2" class="screen">
+
+        <div class="card">
+
+            <div class="big-emoji">🥹❤️</div>
+
+            <h1>
+                Correct!! I know you won't forget it ever ❤️
+            </h1>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION 3 -->
+    <!-- ========================= -->
+
+    <section id="question3" class="screen">
+
+        <div class="card">
+
+            <div class="emoji">👀❤️</div>
+
+            <h1>
+                Am I the most trusted person in your life?
+            </h1>
+
+            <div class="buttons">
+
+                <button class="runaway2">
+                    Yes you are ❤️
+                </button>
+
+                <button class="main-btn" onclick="dontKnowClicked()">
+                    I don't know
+                </button>
+
+                <button class="runaway2">
+                    Never 😭
+                </button>
+
+            </div>
+
+            <p class="small-text">
+                You have 10 seconds... 😏
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- REPLY 3 -->
+    <!-- ========================= -->
+
+    <section id="reply3" class="screen">
+
+        <div class="card">
+
+            <div class="big-emoji">🥺💔</div>
+
+            <h1>
+                So you don't trust me huh?
+            </h1>
+
+            <p class="message">
+                No worries... I'm here with you forever ❤️🥺
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION 4 -->
+    <!-- ========================= -->
+
+    <section id="question4" class="screen">
+
+        <div class="card">
+
+            <div class="emoji">📱😘</div>
+
+            <h1>
+                I'm waiting for your snaps today,
+                when I'll get it?
+            </h1>
+
+            <div class="buttons">
+
+                <button class="runaway3 snap1">
+                    No snaps today 😏
+                </button>
+
+                <button class="runaway3 snap2">
+                    I'm tired today 😴
+                </button>
+
+                <button class="main-btn" onclick="snapSoon()">
+                    Giving you soon ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FINAL -->
+    <!-- ========================= -->
+
+    <section id="final" class="screen">
+
+        <div class="card final-card">
+
+            <div class="big-emoji">
+                😍❤️😘
+            </div>
+
+            <h1>
+                Yeah babe!!
+            </h1>
+
+            <p class="message">
+                I'm waiting... Send it to me ASAP!! 😘📱❤️
+            </p>
+
+            <div class="love-message">
+                ❤️ ❤️ ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
